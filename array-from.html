@@ -19,8 +19,8 @@
 
 <script>
     const list = document.querySelectorAll('#list li')
-    const listArray = Array.from(list)
-
+    const listArray = Array.from(list) // transforma a lista em um array e cria o acesso a todos os metodos de um array
+    
     const countrys = listArray.map((country) => country.textContent)
     console.log(countrys)
 </script>
